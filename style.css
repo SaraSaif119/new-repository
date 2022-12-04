@@ -1,0 +1,29 @@
+input{
+    width:100vw;
+    height: 30px;
+}
+.btn1{
+    width:100vw;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color:blue ;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color:white;
+    color:blue;
+    border-radius: 10px;
+    border:2px solid black;
+}
+.alert{
+    display:none;
+}
+table{
+font-size: 30px;
+}
+th,td{
+width: 150px;
+}
