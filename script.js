@@ -14,6 +14,9 @@ document.getElementById('btn1').onclick=function(){
                 newPro.push(newObj);
                 read();
                 clear();
+                p1.style.display='none';
+                p2.style.display='none';
+                p3.style.display='none';
         }
         else{  
                 if(!(document.getElementById('id2').value).match(pattern1)){
