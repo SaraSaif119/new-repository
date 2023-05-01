@@ -5,7 +5,7 @@ var p1=document.getElementById("p1")
 var p2=document.getElementById("p2")
 var p3=document.getElementById("p3")
 document.getElementById('btn1').onclick=function(){
-        if((document.getElementById('id2').value && document.getElementById('id3').value && document.getElementById('id4').value)!=''){
+        if((document.getElementById('id2').value).match(pattern1) && (document.getElementById('id3').value).match(pattern1) && (document.getElementById('id4').value).match(pattern2)){
                 let newObj = {
                         title:document.getElementById('id2').value,
                         author:document.getElementById('id3').value,
